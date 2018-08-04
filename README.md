@@ -16,3 +16,5 @@ Steps to reproduce on windows:
 6. This time mini-css-extract did not exctract anything to "wwwroot\css" folder
 
 7. However if you delete the files in ".cache-loader" folder and run "run webpack.cmd" again then mini-css-extract will exctract the css file to "wwwroot\css" folder as desired
+
+NOTE: The "wwwroot\js" folder here is auto-generated so steps will work without it too.
